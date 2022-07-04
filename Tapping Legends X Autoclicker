@@ -1,0 +1,16 @@
+---@author:  2022-07-04 11:17:59, alexx#0009
+-- for more projects keep an eye out on my github profile! : https://github.com/T73Y
+_G.AutoTap = true
+
+while _G.AutoTap == true do
+game:GetService("ReplicatedStorage").Remotes.Tap:FireServer()
+wait(.01)
+end
+
+game:GetService("StarterGui"):SetCore("SendNotification",{
+    Title = "Tapping Legends X Script:";
+    Text = "Successfully Loaded Autoclicker!";
+    Duration = 3
+})
+
+--> simple script!
