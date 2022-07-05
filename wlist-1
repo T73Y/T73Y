@@ -1,0 +1,5 @@
+if table.find(Returned, Client.UserId) then
+Notify('Cluster v1 Loaded!', 'Welcome, '..Client.Name..'!', 2)
+Notify('LastUpdated:'..SettingsTable.LastUpdated..'!', 'Took '..TimeTook..'secs To Load!', 3)
+else Client:Kick('Not Whitelisted')
+end
